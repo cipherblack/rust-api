@@ -314,7 +314,7 @@ async fn main() -> std::io::Result<()> {
             .route("/", web::get().to(index)) // Added index function here
             .route("/login", web::post().to(login))
             .route("/data", web::get().to(get_data))
-            .route("/data/{id}", web::get().to(get_data_by_id))
+            .route("/data={id}", web::get().to(get_data_by_id))
             .route("/post", web::post().to(post_data))
             .route("/create_token", web::post().to(create_token_with_role))
     })
