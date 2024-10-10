@@ -1,0 +1,17 @@
+[package]
+name = "post_json"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+jsonwebtoken = "9.3.0"
+chrono = "0.4"
+derive_more = { version = "1.0", features = ["full"] }
+env_logger = "0.11.5"
+uuid = { version = "1", features = ["v4"] }
+itertools = { version = "0.5.0-alpha.1" }
+actix-cors = "0"
+futures-util = "0.3"
