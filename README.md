@@ -67,19 +67,4 @@ curl -X GET http://127.0.0.1:80/data=<id> -H "Authorization: Bearer ADMIN-TOKEN"
 
 
 
-
-
-## Donations
-
-If you appreciate this project and want to support its development, feel free to send a donation to the following wallet address:
-
-### TON Address 
-```
-UQA59lyLjF8TXbvAXXyLk9U1f-LN03jyJyit3pXqonZGXZGO
-```
-### BTC Address
-```
-bc1q3ltptp54pe587axj5ye26pcqqg3sqrlu9fcam0
-```
-
 Your contributions are greatly appreciated!
